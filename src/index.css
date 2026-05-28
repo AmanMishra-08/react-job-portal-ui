@@ -1,0 +1,108 @@
+body{
+ margin: 0px;
+}
+.Parent{
+  height: 200vh;
+  width: 200vh;
+  background-color:rgb(9, 9, 9);
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 240px ;
+  width: 200px;
+  background-color: rgb(241, 233, 233);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top img{
+  height: 30px;
+  width: 30px;
+  margin-left: 4px;
+  border-radius: 50%;
+  border: 1px solid rgb(235, 220, 220);
+  padding: 2px;
+  
+}
+.center h2,
+.center h3 {
+  margin: 0;
+}
+
+.center{
+  padding-top:10px;
+  padding-left:2px;
+ 
+}
+
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+.center h2{
+  font-size: 20px;
+  font-weight: 600;
+  padding-top:0px;
+}
+.center h3 span{
+  font-size: 10px;
+  font-weight: 400;
+  color: black;
+
+}
+.center2{
+  display: flex;
+  gap: 10px;
+  
+}
+.center2 h4{
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  font-size: 10px;
+  font-weight: 50;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 5px;
+  gap:5px ;
+
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(211, 35, 35);
+  padding:5px  5px;
+}
+.bottom h3,.bottom p{
+  margin: 0;
+}
+.bottom h3{
+  font-size: 20px;
+  font-weight: 550;
+}
+.bottom p{
+  font-size: 10px;
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  border-radius: 5px;
+}
